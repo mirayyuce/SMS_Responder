@@ -1,3 +1,6 @@
+Auto SMS Responder based on the inbound message text. 
+
+
 1 - Go to https://ngrok.com/  
       1- Signup for free
       2- Download the file and unzip it
@@ -17,11 +20,11 @@
    1- Go to configs.py
           Change source_number to Telnyx phone number
           Add the Telnyx API Key
-          Add or remove any word/sentence matching to word_dict. Keys are expected to be alphanumeric without special characters
+          Add or remove any word-sentence matching to word_dict. Keys are expected to be alphanumeric without special characters and without spaces, eg: pizza, icecream
           
 4- Run ./ngrok http 5000       
 5- From another terminal run receiver.py
-6- Send a message to the Telnyx number
+6- Send a message to the Telnyx number 
 7- Receive the answer
 
 
